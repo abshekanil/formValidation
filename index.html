@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-forms-icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Create Account</h1>
+            <div class="inputContainer">
+                <label for="username">Username</label><br>
+                <input type="text" id="username" name="username" required><br>
+                <div class="usernameError"></div><br>
+            </div>
+            <div class="inputContainer">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email" required><br>
+                <div class="emailError"></div><br>
+            </div>
+            <div class="inputContainer">
+                <label for="password">Password</label><br>
+                <input type="password" id="password" name="password" required><br>
+                <div class="passwordError"></div><br>
+            </div>
+            <div class="inputContainer">
+                <label for="password2">Password check</label><br>
+                <input type="password" id="password2" name="password2" required><br>
+                <div class="password2Error"></div><br>
+            </div>
+            <button id="submitBtn">Submit</button>
+        </form>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

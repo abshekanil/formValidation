@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+  background: linear-gradient(62deg, #8ec5fc, #e0c3fc);
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  height: 100vh;
+  width: 100wv;
+  overflow: hidden;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 90%;
+    height: 25px;
+    margin-left: 1rem;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+}
+label{
+    margin-left: 1rem;
+}
+#form{
+    width: 400px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+#submitBtn{
+    padding: 7px 60px;
+    border: none;
+    background-color: #925eb1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 2rem;
+}
+#submitBtn:hover{
+    opacity: 0.7;
+}
+.usernameError{
+    font-size: 13px;
+    margin-left: 1rem;
+    color: red;
+}
+input[type=text]:focus{
+    outline: 2px solid transparent;
+}
+.emailError{
+    font-size: 13px;
+    margin-left: 1rem;
+    color: red;
+}
+.passwordError{
+    font-size: 13px;
+    margin-left: 1rem;
+    color: red;
+}
+input[type=password]:focus{
+    outline: 2px solid transparent;
+}
+.password2Error{
+    font-size: 13px;
+    margin-left: 1rem;
+    color: red;
+}
